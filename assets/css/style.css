@@ -14,14 +14,14 @@ body {
     text-align: center;
     border-bottom: 2px solid gray;
 }
-.subheading {
+.heading {
     border-bottom: 2px solid #d16969;
     background-color: #d16969;
     color: white;
     margin-top: 0;
     height: 35px;
 }
-.s3{
+.subheading{
     font-weight: bold;
 }
 .incoming, .addtrain {
@@ -37,4 +37,35 @@ label {
 }
 button {
     margin: 1%;
+    background-color: #e77c7c !important;
+}
+button:focus {
+    background-color: #e77c7c !important;
+}
+.info{
+    margin-bottom: 3%;
+    color: rgb(73, 73, 73);
+    text-align: left;
+}
+.traininfo{
+    margin-top: 3%;
+}
+.addbtn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    float: right;
+}
+.addbtn:focus {
+    background-color: transparent;
+}
+.nav-wrapper {
+    position: relative;
+    background-color: #e77c7c !important;
+}
+.material-icons {
+    position: absolute;
+    top: .2em;
+    right: 1em;
 }
