@@ -1,0 +1,40 @@
+body {
+    background-image: url(./struckaxiom.png);
+    color: #d16969;
+}
+.title {
+    font-size: 25px;
+    margin-left: 4%;
+}
+.subtitle {
+    margin: auto;
+    width: 70%;
+    margin-top: 5%;
+    padding-bottom: 4%;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.subheading {
+    border-bottom: 2px solid #d16969;
+    background-color: #d16969;
+    color: white;
+    margin-top: 0;
+    height: 35px;
+}
+.s3{
+    font-weight: bold;
+}
+.incoming, .addtrain {
+    border: 2px solid gray;
+    background-color: rgba(255, 255, 255, 0.383);
+    margin: 4% 0;
+    padding-bottom: 3%;
+}
+label {
+    font-size: 18px;
+    color: #d16969;
+    font-weight: bold;
+}
+button {
+    margin: 1%;
+}
