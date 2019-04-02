@@ -30,7 +30,6 @@ document.querySelector('#submit').addEventListener('click', e => {
         document.querySelector('#destination').value = ''
         document.querySelector('#first-train').value = ''
         document.querySelector('#duration').value = ''
-        document.querySelector('.addtrain').style.visibility = 'hidden'
     }
 })
 
